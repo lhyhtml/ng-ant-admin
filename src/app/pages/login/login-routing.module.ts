@@ -13,7 +13,7 @@ const routes: Routes = [
         path: 'register-form',
         loadChildren: () => import('./register-form/register-form.module').then(m => m.RegisterFormModule)
       },
-      {path: '', redirectTo: '/login/login-form', pathMatch: 'full'}
+      {path: '', redirectTo: '/login', pathMatch: 'full'}
     ]
   },
 ];
